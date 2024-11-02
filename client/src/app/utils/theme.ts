@@ -1,5 +1,5 @@
 import { createTheme } from "@mantine/core";
 
 export const theme = createTheme({
-  defaultRadius: "lg",
+  defaultRadius: "md",
 });

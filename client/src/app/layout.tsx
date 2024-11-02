@@ -1,4 +1,5 @@
 import { MantineProvider } from "@mantine/core";
+import "@mantine/core/styles.css";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
