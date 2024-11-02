@@ -16,8 +16,16 @@ export default function CreateAgentButton() {
       <Modal opened={opened} onClose={close} title="Create Agent">
         <form onSubmit={handleCreate} className="flex flex-col gap-4">
           <TextInput label="Name" placeholder="Agent Name" />
-          <Textarea label="System Prompt" placeholder="Agent Instructions" />
-          <Textarea label="Instructions" placeholder="Agent Instructions" />
+          <Textarea
+            autosize
+            label="System Prompt"
+            placeholder="Agent Instructions"
+          />
+          <Textarea
+            autosize
+            label="Fine tuning data"
+            placeholder="Upload fine tuning data"
+          />
           <Button type="submit">Create</Button>
         </form>
       </Modal>
